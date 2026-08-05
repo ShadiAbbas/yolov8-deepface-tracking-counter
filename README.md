@@ -19,7 +19,8 @@ A computer vision pipeline combining YOLOv8 object detection, ByteTRACK multi-ob
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/ShadiAbbas/yolov8-deepface-tracking-counter.git](https://github.com/ShadiAbbas/yolov8-deepface-tracking-counter.git)
+   git clone https://github.com/ShadiAbbas/yolov8-deepface-tracking-counter.git
+   https://github.com/ShadiAbbas/yolov8-deepface-tracking-counter.git
 
 2. Install dependencies:
    ```bash
