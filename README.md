@@ -27,4 +27,4 @@ A computer vision pipeline combining YOLOv8 object detection, ByteTRACK multi-ob
 
 4. Run the application:
    ```bash
-   python main.py
+   python person_face_seg.py
