@@ -1,4 +1,5 @@
 # Real-Time Person Tracking & Face Recognition Line Counter
+![Project Demo](test.gif)
 
 A computer vision pipeline combining YOLOv8 object detection, ByteTRACK multi-object tracking, and DeepFace (ArcFace) facial recognition to track, count, and identify individuals crossing a virtual boundary in real time.
 
