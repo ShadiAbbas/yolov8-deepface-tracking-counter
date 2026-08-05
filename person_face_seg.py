@@ -16,7 +16,7 @@ for i in range(3):
     temp_cap.release()
 
 if cap is None:
-    print("❌ No webcam found! Check your Windows Privacy Settings.")
+    print("No webcam found! Check your Windows Privacy Settings.")
     exit()
 
 # Load your face database
