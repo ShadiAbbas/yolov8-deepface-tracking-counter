@@ -3,7 +3,7 @@ from ultralytics import YOLO
 from deepface import DeepFace
 
 # Load your model
-model = YOLO(r'C:\Users\Shadi\runs\segment\train15\weights\best.pt')
+model = YOLO('best.pt')
 
 # Automatically find the right camera index
 cap = None
@@ -19,8 +19,8 @@ if cap is None:
     print("No webcam found! Check your Windows Privacy Settings.")
     exit()
 
-# Load your face database
-db_path = r'C:\Users\Shadi\Face_Seg\face_dataset'
+# Load your face database (folder containing folders each named with a person's name and contains several close up images of the person's face)
+db_path = 'face_dataset'
 
 # Create the window and allow it to be resized
 cv2.namedWindow("Multi-Person Recognition", cv2.WINDOW_NORMAL)
