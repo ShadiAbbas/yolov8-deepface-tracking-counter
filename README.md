@@ -16,6 +16,13 @@ A computer vision pipeline combining YOLOv8 object detection, ByteTRACK multi-ob
 - **Image Processing:** OpenCV, NumPy
 
 ## Getting Started
+
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/yolov8-deepface-tracking-counter.git](https://github.com/your-username/yolov8-deepface-tracking-counter.git)
+   git clone [https://github.com/ShadiAbbas/yolov8-deepface-tracking-counter.git](https://github.com/ShadiAbbas/yolov8-deepface-tracking-counter.git)
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Run the application:
+   python main.py
